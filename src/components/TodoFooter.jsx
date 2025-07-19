@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer({ onDeleteAll }) {
     return (
-        <footer className="footer">
+        <footer className="todo-footer">
             <button onClick={onDeleteAll} className="delete-all-button">
                 Delete All
             </button>
